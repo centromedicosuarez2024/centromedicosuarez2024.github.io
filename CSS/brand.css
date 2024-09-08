@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*rootear la pagina*/
+:root {
+    --colorazul: #0019FF;
+    --colornegro: #25252D;
+    --colorverde: #00FF29;
+    --colorturquesa: #1EE4FF;
+    --colorblanco: #F5F2F2;
+
+    --fontnunito: "Nunito", sans-serif;
+    --fontinter: "Inter";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--fontnunito);
+    font-size: 16px;
+}
+
+/*rootear la pagina*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 500px;
+}
+
+.btn1 {
+    background-color: var(--colorblanco);
+    color: var(--colornegro);
+    border: 2px solid var(--colorceleste);
+
+}
+
+.btn1:hover {
+    background-color: var(--colorturquesa);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
+}
+
+.btn2 {
+    background-color: #00F0FF;
+    color: var(--colornegro);
+    justify-content: center;
+}
+
+.btn2:hover {
+    background-color: #73CCAC;
+    color: var(--colornegro);
+}
+
+.btn3 {
+    color: #23B8F8;
+    
+}
+
+.btn3:hover {
+    color: #34F823;
+}
+
+
+.container {
+
+    padding: 80px 25px;
+    margin: 0px 70px;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
