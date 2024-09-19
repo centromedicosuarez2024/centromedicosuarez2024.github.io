@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--colornegro);
+    background-color: #25252D;
 }
 
 
@@ -7,10 +7,12 @@ footer {
     display: flex;
     justify-content: space-between;
     color: var(--colorblanco);
-    padding: 25px 0;
+    padding: 4px 0;
 
-    & .politicas {
+    & .politica{
         display: flex;
+        flex-direction: column;
+        padding:45px;
         gap: 50px;
 
         & a {
@@ -18,8 +20,41 @@ footer {
         }
 
         & a:hover {
-            color: var(--colorceleste);
+            color: #0BD3FF;
         }
     }
-    
+
+    & .terminos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 50px;
+
+        & a {
+            color: var(--colorblanco);
+        }
+
+        & a:hover {
+            color: #0BD3FF;
+        }
+    }
+
+    & .contactos {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        gap: 10px;
+
+        & a {
+            color: var(--colorblanco);
+        }
+
+        & a:hover {
+            color: #0BD3FF;
+        }
+    }
+
 }

@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px ;
+    padding: 10px 50px ;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ header {
 
 .menu nav {
     display: flex;
-    gap: 200px;
+    gap: 150px;
     align-items: center;
 
     & ul {

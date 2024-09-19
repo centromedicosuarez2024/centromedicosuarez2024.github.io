@@ -1,0 +1,95 @@
+@import url(styles.css);
+
+.datos p {
+    margin-top: 25px;
+}
+
+.listas_datos {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.listas_datos_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 205px;
+}
+
+.listas_datos_texto {
+    display: flex;
+    text-align: center;
+    width: 600px;
+
+    & h3 {
+        color: #2A52A7;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3rem;
+        padding: 20px 10px;
+    }
+}
+
+.formulario_input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.formulario_titulo {
+    display: flex;
+    flex-direction: column;
+
+    
+    & h1 {
+        color: #2A52A7;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3rem;
+        padding: 20px 10px;
+    }
+}
+
+
+.formulario_items {
+    background: linear-gradient(#00C8FF, #052a3f);
+    border-radius: 45px;
+    padding: 50px 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h3 {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        justify-content: center ;
+        padding: 20px 30px;
+    }
+
+}
+
+.grupos_input input,
+textarea {
+    width: 98%;
+    padding: 5px 5px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.datos {
+    background-image: url("../image/cruces.png");
+    background-position: bottom;
+    background-size: cover;
+}

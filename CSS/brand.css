@@ -10,7 +10,7 @@
     --colorblanco: #F5F2F2;
 
     --fontnunito: "Nunito", sans-serif;
-    --fontinter: "Inter";
+    --fontinter: "Inter", system-ui;
 }
 
 * {
@@ -61,7 +61,7 @@ h6 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a {
@@ -72,12 +72,14 @@ a {
 button {
     cursor: pointer;
     border: none;
-    padding: 10px 25px;
+    padding: 15px 25px;
     border-radius: 50px;
     background-color: transparent;
     font-size: 1.25rem;
     font-weight: 500px;
 }
+
+
 
 .btn1 {
     background-color: var(--colorblanco);
@@ -96,6 +98,7 @@ button {
     background-color: #00F0FF;
     color: var(--colornegro);
     justify-content: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .btn2:hover {
@@ -103,24 +106,74 @@ button {
     color: var(--colornegro);
 }
 
+/* Boton 3 - degradado */
 .btn3 {
-    color: #23B8F8;
-    
+    color: #0BD3FF;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.5rem;
 }
 
-.btn3:hover {
-    color: #34F823;
+.btn3:hover:hover {
+    background-color: transparent;
+    color: #0BFF23; 
 }
-
 
 .container {
 
     padding: 80px 25px;
-    margin: 0px 70px;
+    margin:0px 30px;
+}
+
+.btn4 {
+    background-color: #00F0FF;
+    color: var(--colornegro);
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn4:hover {
+    background-color: #73CCAC;
+    color: var(--colornegro);
+}
+
+.btn5 {
+    color: #0BD3FF;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.btn5:hover {
+    background-color: transparent;
+    color: #0BFF23; 
+}
+
+.btn6 {
+    background-color: var(--colorturquesa);
+    color: var(--colornegro);
+    border: 2px solid var(--colorblanco);
+
+}
+
+.btn6:hover {
+    background-color: var(--colorazul);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorblanco);
 }
 
 .grid_2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
 
+.grid_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
 }
